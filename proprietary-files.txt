@@ -757,9 +757,6 @@ vendor/lib64/vendor.qti.imsrtpservice@2.0.so
 vendor/lib64/vendor.qti.imsrtpservice@2.1-service-Impl.so
 vendor/lib64/vendor.qti.imsrtpservice@2.1.so
 
-# MOTO RIL
-vendor/lib64/libsensorndkbridge.so
-
 # Sensors
 vendor/bin/capsense_reset
 vendor/bin/sensors.qti
