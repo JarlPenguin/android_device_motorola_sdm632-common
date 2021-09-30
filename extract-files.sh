@@ -68,7 +68,7 @@ function blob_fixup() {
         # qsap shim
         vendor/lib64/libmdmcutback.so)
             for  LIBQSAP_SHIM in $(grep -L "libqsap_shim.so" "${2}"); do
-                $"{PATCHELF}" --add-needed "libqsap_shim.so" "$LIBQSAP_SHIM"
+                "${PATCHELF}" --add-needed "libqsap_shim.so" "$LIBQSAP_SHIM"
             done
             ;;
     esac
