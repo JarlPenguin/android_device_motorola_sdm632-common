@@ -40,7 +40,6 @@ DEVICE_PACKAGE_OVERLAYS += \
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
-    $(LOCAL_PATH)/overlay/packages/apps/Snap \
     $(LOCAL_PATH)/overlay-lineage/lineage-sdk
 
 # A/B updater
@@ -120,7 +119,7 @@ PRODUCT_PACKAGES += \
     camera.device@3.2-impl \
     libbson.vendor \
     libxml2 \
-    Snap
+    MotCamera2
 
 # Codec2 modules
 PRODUCT_PACKAGES += \
