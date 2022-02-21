@@ -123,13 +123,6 @@ service qfp-daemon /system/vendor/bin/qfp-daemon
    user system
    group system drmrpc
 
-# FM
-on property:hw.fm.init=0
-    write /sys/module/radio_iris_transport/parameters/fmsmd_set 0
-
-on property:hw.fm.init=1
-    write /sys/module/radio_iris_transport/parameters/fmsmd_set 1
-
 service qrngd /system/bin/qrngd -f
    class main
    user root

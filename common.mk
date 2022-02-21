@@ -151,8 +151,8 @@ PRODUCT_PACKAGES += \
 
 # FM
 PRODUCT_PACKAGES += \
-    FMRadio \
-    libfmjni
+    FM2 \
+    qcom.fmradio
 
 # GMS
 ifeq ($(WITH_GMS),true)
